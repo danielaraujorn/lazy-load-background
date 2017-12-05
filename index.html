@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="index.js"></script>
+	<title>Lazy load</title>
+</head>
+<body>
+	<style type="text/css">
+		.image{
+			background-position: center;
+			background-size: cover;
+			height: 300px;
+			width: 100%;
+			max-width: 500px;
+		}
+	</style>
+	<div style="width:100%">
+		<div data-src="http://marketingdeconteudo.com/wp-content/uploads/2017/01/formatos-de-imagem-2.jpg" class="lazyloadBackground image"></div>
+		<div data-src="https://i1.wp.com/omarjunior.com/fotografia/wp-content/uploads/2014/07/MAR1099.jpg?fit=1280%2C853" class="lazyloadBackground image"></div>
+		<div data-src="http://s2.glbimg.com/jpNxAnLfDXTDWxoJMZVSdhEdCQA=/e.glbimg.com/og/ed/f/original/2016/02/19/black_hole.jpg" class="lazyloadBackground image"></div>
+		<img data-src="https://4.bp.blogspot.com/-BMM9umOXC8k/T2PFcON_wNI/AAAAAAAAEhc/ZYqjZY-7Ef8/s1600/desenho-de-tigre-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg" class="lazyload image">
+	</div>
+</body>
+</html>
